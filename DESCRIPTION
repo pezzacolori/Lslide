@@ -2,7 +2,7 @@ Package: Lslide
 Title: Functions for object-oriented image analysis in landslide science
 Version: 0.1.0
 Date: 2017-04-17
-Authors@R: c(person("Knevels", "Raphael", email = "", role = "cre"))
+Authors@R: c(person("Knevels", "Raphael", email = "cucu@gmail.com", role = "cre"))
 Author: Raphael Knevels
 Maintainer: Raphael Knevels
 Description: This package was created with respect to the authors master thesis. 
