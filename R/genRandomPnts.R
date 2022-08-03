@@ -52,7 +52,7 @@ genRandomPnts <- function(x, seed = 123, dist = NULL, n = Inf, maxit = 100, quie
     # if(quiet == FALSE) cat("Run ", i, " of ", length(x.owin), "\n")
     set.seed(seed)
 
-    pts.out <- spatstat::rSSI(r = r, n = n, giveup = maxit, win = x.owin[[i]], ...)
+    pts.out <- spatstat.random::rSSI(r = r, n = n, giveup = maxit, win = x.owin[[i]], ...)
 
     return(list(pts.out, rep(i, pts.out$n)))
 
